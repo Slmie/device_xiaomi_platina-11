@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_platina.mk
+    $(LOCAL_DIR)/exthm_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_platina-user \
-    aosp_platina-userdebug \
-    aosp_platina-eng
+    exthm_platina-user \
+    exthm_platina-userdebug \
+    exthm_platina-eng
