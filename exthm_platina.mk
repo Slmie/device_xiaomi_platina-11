@@ -25,6 +25,10 @@ $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# EXTHMUI GAPPS
+EXTHM_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
